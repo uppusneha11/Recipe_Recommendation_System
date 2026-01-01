@@ -52,15 +52,6 @@ These files are cleaned and converted to `.parquet` format as part of the prepro
 
 ---
 
-## Why Parquet Files Are Not Included
-
-> GitHub limits file uploads to 50 MB.  
-> Some files used in this project (like `recipes_steps.parquet`, ~99MB) exceed this limit.
-
-These files are excluded from the repository using `.gitignore`. You must generate them locally by running the machine learning preprocessing script.
-
----
-
 ## Steps to Run This Project
 
 ### 1. Clone the Repository
